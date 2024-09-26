@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+
+}
+
+.navbarContainer{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    position: relative;
+}
+.navbarContainer__logo{
+    width: 100px;
+    height: auto;
+}
+.navBar{
+    display: inline-block;
+    position: absolute;
+    bottom: 20%;
+}
+.navBar__item{
+    color: white;
+    display: inline;
+    margin-left: 30px;
+}
+.header{
+    width: 100%;
+    padding: 10px;
+    background-image: url("https://wwwmarketing.scdn.co/static/images/premium/mobile-album-evergreen-1x.png"),linear-gradient(#ffffff, #FFD2D7);
+    background-repeat: no-repeat;
+}
+.header__title{
+    width: 300px;
+    margin-top: 7em;
+}
+.header__subtitle{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.header__butonTest{
+    display: block;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: blue;
+    padding: 10px;
+    margin-right: 4px;
+    margin-top: 1em;
+    width: 90%;
+}
+
+.header__butonPlan{
+    display: block;
+    margin-top: 1em;
+    width: 90%;
+
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.header__buttonBox{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.header__terms{
+    font-size: 10px;
+}
+.pricing{
+}
+.textContent {
+    text-align: center;
+    color: white;
+}
+.pricing__title{
+   font-size: 24px;
+}
+.pricing__subtitle{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.pricing__paymentImage{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 1em;
+    padding: .5em;
+}
+
+.pricing__list__item{
+    color: white;
+}
+.pricing{
+    padding: 1em;
+}
+.pricing__card{
+
+    background-color: rgb(36, 36, 36);
+    padding: 1em;
+    border-radius: .5em;
+    margin-top: 2em;
+}
+.card__title{
+    margin: 0;  
+    display: inline;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .5em;
+    margin-left: .25em;
+}
+.card__pricingTitle{
+    font-weight: 500;
+    font-size: 20px;
+}
+.card__title--individual{
+    background-color: rgb(255, 210, 215);
+}
+.card__pricingTitle--individual{
+    color: rgb(255, 210, 215);
+}
+
+.card__pricingTitle--estudiantes{
+    color: purple;
+}
+.card__title--estudiantes{
+    background-color: purple;
+}
