@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Player</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        class="navbar__logo"
+        alt="logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/1200px-Spotify_logo_with_text.svg.png"
+      />
+      <div>
+        <button>H</button>
+        <input
+          type="text"
+          name="search"
+          placeholder="¿Qué quieres reproducir?"
+        />
+      </div>
+      <div>
+        <button>Registrate</button>
+        <button>Iniciar Sesión</button>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="library">
+        <div class="library__title">
+          <h4>Tu biblioteca</h4>
+          <button>Agregar</button>
+        </div>
+        <div class="library__card">
+          <p>Crea tu primera lista</p>
+          <p>Es muy facil</p>
+          <button>Crear lista</button>
+        </div>
+        <div class="library__card">
+          <p>Crea tu primera lista</p>
+          <p>Es muy facil</p>
+          <button>Crear lista</button>
+        </div>
+      </section>
+      <section class="player">
+        <button>Todo</button>
+        <button>Canciones</button>
+        <button>Playlist</button>
+        <button>Podcast</button>
+        <div class="player__header">
+          <article class="player__principal">
+            <h4>Resultado principal</h4>
+            <img
+              class="navbar__logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/1200px-Spotify_logo_with_text.svg.png"
+            />
+            <p>FARDOS</p>
+            <p><span>Canción</span> Bad Bunny</p>
+          </article>
+          <div class="player__songs">
+            <h4>Canciones</h4>
+            <article class="player__songs__song">
+              <div style="display: flex;">
+                <img
+                  class="navbar__logo"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/1200px-Spotify_logo_with_text.svg.png"
+                />
+                <div style="margin-left: 1em;align-content: center;">
+                    <p class="song__name">FARDOS</p>
+                    <p class="song__name">Bad Bunny</p>
+                </div>
+              </div>
+              <p>3:03</p>
+            </article>
+            <article class="player__songs__song">
+                <div style="display: flex;">
+                  <img
+                    class="navbar__logo"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/1200px-Spotify_logo_with_text.svg.png"
+                  />
+                  <div style="margin-left: 1em;align-content: center;">
+                      <p class="song__name">FARDOS</p>
+                      <p class="song__name">Bad Bunny</p>
+                  </div>
+                </div>
+                <p>3:03</p>
+              </article>
+              <article class="player__songs__song">
+                <div style="display: flex;">
+                  <img
+                    class="navbar__logo"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/1200px-Spotify_logo_with_text.svg.png"
+                  />
+                  <div style="margin-left: 1em;align-content: center;">
+                      <p class="song__name">FARDOS</p>
+                      <p class="song__name">Bad Bunny</p>
+                  </div>
+                </div>
+                <p>3:03</p>
+              </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
