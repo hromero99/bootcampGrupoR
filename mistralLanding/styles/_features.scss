@@ -1,0 +1,47 @@
+.feature{
+    padding: .7em;
+
+    &__title{
+        font-size: 2rem;
+    }
+
+    &__card{
+        background-color: $colorgray;
+        border-radius: 1em;
+        border-color: transparent;
+        padding: 1em;
+        position: relative;
+        margin-bottom: 1em;
+
+        &__image{
+
+        }
+        &__title{
+            display: inline-block;
+            position: absolute;
+            top: 20%;
+            font-size: 1.2rem;
+            margin-left: 1em;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        &__content{
+            line-height: 1.5rem;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    .feature{
+        &__title{
+            text-align: center;
+        }
+        &__cards-container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 1em;
+        }
+    }
+}
